@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    Font-family: 'Oswald', 'sans-serif';
+    font-Weight: 400;
+    color: #617d5d;
+}
+
+main{
+
+    height: 100vh;
+    width: 100vw;
+}
+.lado-esquerdo{
+    display: inline-block;
+    width: 60vw;
+    margin-top: 12%;
+    padding-left: 110px;
+
+}
+
+.lado-direito{
+    height: 100vh;
+    width: 40vw;
+    display: inline-block;
+    background-color: rgba(93,93,125, 0.16);
+    position: absolute;
+    
+}
+img{
+    position: relative;
+    top: 5%;
+    right: 130px;
+
+}
+h1{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+    height: 160px;
+    text-align: left;
+   
+}
+p{
+    
+    font-Size: 28px;
+    Line-height: 48px;
+    color:#5D5D7D;
+    Width: 540px;
+    Height: 200px;
+    text-align: justify;
+    margin: 15px 0;
+}
+button{
+
+    width: 269px;
+    height: 62px;
+    background:  #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    border: none;
+    border-radius: 30px;
+    Font-size: 24px;
+    Line-height: 36px;
+    letter-spacing: 3px;
+    color:#ffffff;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: .8;
+}
+button:active{
+    opacity: .5;
+}
+a{
+    Font-size: 25px;
+    Line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+a:hover{
+    opacity: .8;
+}
+a:active{
+    color: red;
+}
+header{
+    margin: 20px 0 0 42px;
+}
+@media screen and (max-width: 900px){
+    .lado-esquerdo{
+        width: 100%;
+        height: 45%;
+        padding: 0;
+        margin: 0;
+        display: block;
+        
+    }
+    .lado-direito{
+        width: 100%;
+        height: 55%;
+        display: block;
+        position: static;
+        padding: 40px;
+        margin: 0;
+    }
+    header {
+        display: none;
+    }
+    img{ 
+        position: static;
+                width: 90%;
+
+    }
+    h1 {
+        Font-size: 38px;
+        Line-height: 52px;
+        text-align: center;
+        margin: 5px 50px 0 50px;
+        width: auto;
+    }
+    p{
+        Font-size: 16px;
+        Line-height: 24px;
+        text-align: Center;
+        margin: 0px 40px;
+        Width: auto;
+        Height: 120px;
+    }
+    
+    button{
+
+        width: 229px;
+        height: 62px;
+        background:  #9499EA;
+        box-shadow: 0px 10px 24px 0px #9499EA19;
+        border: none;
+        border-radius: 30px;
+        Font-size: 24px;
+        Line-height: 36px;
+        letter-spacing: 3px;
+        color:#ffffff;
+        cursor: pointer;
+        margin: 0 auto;
+        display: block; }
+
+
+}
